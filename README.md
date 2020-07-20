@@ -1,3 +1,3 @@
 # EGDK Engine
 
-Es un motor 2d escrito en C, aun en desarrollo.
+EGDK es un motor de videojuegos 2D multiplataforma.
