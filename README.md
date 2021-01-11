@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://egdkengine.com/" target="_blank" rel="noopener noreferrer">
-  <img width="500" src="https://scontent.flrm1-1.fna.fbcdn.net/v/t1.0-9/138470686_3610441375741119_1020620534585132878_o.jpg?_nc_cat=107&ccb=2&_nc_sid=825194&_nc_eui2=AeGX6jbHuF5lwKQBYZiA4M9--rRSFGXNLi36tFIUZc0uLV6kDhxJurronSg9Sw_YCbDmgcfuAky_t02x-wQ0UOJd&_nc_ohc=omNRFCjaQ2MAX--kQYQ&_nc_ht=scontent.flrm1-1.fna&oh=7e0b1bf8d9fb21b312c1b6c2c4577cac&oe=60210D9F" alt="EGDK logo">
+  <img width="500" src="https://scontent.flrm1-1.fna.fbcdn.net/v/t1.0-9/136372050_3610860049032585_1676945081435347905_o.jpg?_nc_cat=109&ccb=2&_nc_sid=0debeb&_nc_eui2=AeG8j0Ol65puYdR5bZZBlqBWmXjpqbRzFwiZeOmptHMXCGTatIW7wpbfiTW-uMxGis-hj1c1dUXSLMORUqg9tS6A&_nc_ohc=bpZENOlTe_kAX8-OnEQ&_nc_ht=scontent.flrm1-1.fna&oh=a48e7f619852faa31f56682c8dcb3ed8&oe=60215631" alt="EGDK logo">
 </a>
 </p>
 <p align="center">
