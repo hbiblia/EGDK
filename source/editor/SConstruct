@@ -1,0 +1,16 @@
+
+import os
+env = Environment(ENV = {'PATH': os.environ['PATH']})
+
+source = [
+    "src/main.c",
+    "src/menubar.c",
+    "src/notebook.c",
+    "src/canvas.c",
+]
+
+env.Append(LIBS=['pthread','m'])
+env.Append(CCFLAGS=['-w','-std=c99'])
+env.ParseConfig('pkg-config --cflags --libs gtk+-3.0')
+
+env.Program('ermine-editor', [source])

@@ -1,0 +1,33 @@
+
+import os
+env = Environment(ENV = {'PATH': os.environ['PATH']})
+
+source = [
+    "src/eobject.c",
+    "src/eactor.c",
+    "src/eshape_class.c",
+    "src/eshape_rect.c",
+    "src/eshape_circle.c",
+    "src/etexture_class.c",
+    "src/esprite.c",
+    "src/etext_render.c",
+    "src/system.c",
+    "src/scene.c",
+    "src/stage.c",
+    "src/resource.c",
+    "src/collision.c"
+]
+
+env.Append(LIBPATH=['src/libs/raylib/src/'])
+
+if env['PLATFORM'] == 'win32' or env['PLATFORM'] == 'msys':
+    env.Append(LIBS=['-lraylib','-lpthread','-lm','-lopengl32','-lgdi32','-lwinmm'])
+else:
+    env.Append(LIBS=['-lraylib','-lpthread','-ldl','-lm'])
+
+env.Append(CPPPATH = ['src/','include/'])
+env.Append(CCFLAGS=['-w','-std=c99'])
+
+env.ParseConfig('pkg-config --cflags --libs glib-2.0 gobject-2.0')
+
+env.SharedLibrary('ermine', [source])

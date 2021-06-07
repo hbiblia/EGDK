@@ -1,0 +1,17 @@
+
+import os
+env = Environment(ENV = {'PATH': os.environ['PATH']})
+
+source = [
+    "src/main.c",
+]
+
+env.Append(LIBPATH=['../libermine/'])
+env.Append(LIBS=['ermine'])
+
+env.Append(CPPPATH = ['../libermine/include/'])
+env.Append(CCFLAGS=['-w','-std=c99'])
+
+env.ParseConfig('pkg-config --cflags --libs glib-2.0 gobject-2.0')
+
+env.Program('ermine-game', [source])
