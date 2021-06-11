@@ -2,8 +2,8 @@
 #ifndef __ERMINE_EACTOR_H__
 #define __ERMINE_EACTOR_H__
 #include <stdio.h>
-#include "eobject.h"
-#include "ermine.h"
+#include "ermine_object.h"
+#include "../ermine.h"
 
 G_BEGIN_DECLS
 

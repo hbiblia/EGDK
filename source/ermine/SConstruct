@@ -1,0 +1,33 @@
+
+import os
+env = Environment(ENV = {'PATH': os.environ['PATH']})
+
+source = [
+    "src/actor/ermine_object.c",
+    "src/actor/ermine_actor.c",
+    "src/actor/ermine_shape_class.c",
+    "src/actor/ermine_shape_rect.c",
+    "src/actor/ermine_shape_circle.c",
+    "src/actor/ermine_texture_class.c",
+    "src/actor/ermine_sprite.c",
+    "src/actor/ermine_text_render.c",
+    "src/system/ermine_system.c",
+    "src/scene/ermine_scene.c",
+    "src/scene/ermine_stage.c",
+    "src/resource/ermine_resource.c",
+    "src/collision/ermine_collision.c",
+]
+
+env.Append(LIBPATH=['src/libs/raylib/src/'])
+
+if env['PLATFORM'] == 'win32' or env['PLATFORM'] == 'msys':
+    env.Append(LIBS=['-lraylib','-lpthread','-lm','-lopengl32','-lgdi32','-lwinmm'])
+else:
+    env.Append(LIBS=['-lraylib','-lpthread','-ldl','-lm'])
+
+env.Append(CPPPATH = ['src/'])
+env.Append(CCFLAGS=['-w','-std=c99'])
+
+env.ParseConfig('pkg-config --cflags --libs glib-2.0 gobject-2.0')
+
+env.SharedLibrary('ermine', [source])

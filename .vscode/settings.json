@@ -1,5 +1,12 @@
 {
     "files.associations": {
-        "stage.h": "c"
+        "stage.h": "c",
+        "ermine_system.h": "c",
+        "resource.h": "c",
+        "raylib.h": "c",
+        "ermine_shape_circle.h": "c",
+        "ermine_texture_class.h": "c",
+        "ermine.h": "c",
+        "stdbool.h": "c"
     }
 }

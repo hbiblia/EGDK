@@ -1,4 +1,4 @@
-#include "etexture_class.h"
+#include "ermine_texture_class.h"
 
 G_DEFINE_TYPE_WITH_PRIVATE(ErmineTexture, ermine_texture, ERMINE_TYPE_ACTOR);
 

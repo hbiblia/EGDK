@@ -1,4 +1,4 @@
-#include "collision.h"
+#include "ermine_collision.h"
 
 static bool circle_rectangle(Rectangle boxA, Rectangle boxB)
 {

@@ -1,4 +1,4 @@
-#include "resource.h"
+#include "ermine_resource.h"
 
 #define MAX_RESOURCE_SINGLE 1000
 static int id_resource_texture = 0;

@@ -1,4 +1,4 @@
-#include "eobject.h"
+#include "ermine_object.h"
 
 G_DEFINE_TYPE_WITH_PRIVATE(ErmineObject, ermine_object, G_TYPE_OBJECT);
 

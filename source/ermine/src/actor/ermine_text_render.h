@@ -1,8 +1,8 @@
 #pragma once
 #ifndef __ERMINE_TEXT_RENDER_H__
 #define __ERMINE_TEXT_RENDER_H__
-#include "eactor.h"
-#include "ermine.h"
+#include "ermine_actor.h"
+#include "../ermine.h"
 
 G_BEGIN_DECLS
 

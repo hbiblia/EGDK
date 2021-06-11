@@ -1,5 +1,5 @@
-#include "eshape_rect.h"
-#include "system.h"
+#include "ermine_shape_rect.h"
+#include "system/ermine_system.h"
 #include "raylib.h"
 
 // -----------------------

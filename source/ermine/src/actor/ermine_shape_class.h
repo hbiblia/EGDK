@@ -2,8 +2,8 @@
 #ifndef __ERMINE_SHAPE_CLASS_H__
 #define __ERMINE_SHAPE_CLASS_H__
 #include <stdio.h>
-#include "eactor.h"
-#include "ermine.h"
+#include "ermine_actor.h"
+#include "../ermine.h"
 
 G_BEGIN_DECLS
 

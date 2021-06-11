@@ -1,8 +1,8 @@
 #pragma once
 #ifndef __ERMINE_SHAPE_RECT_H__
 #define __ERMINE_SHAPE_RECT_H__
-#include "eshape_class.h"
-#include "ermine.h"
+#include "ermine_shape_class.h"
+#include "../ermine.h"
 
 G_BEGIN_DECLS
 

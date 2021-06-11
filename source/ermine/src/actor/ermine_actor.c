@@ -1,4 +1,4 @@
-#include "eactor.h"
+#include "ermine_actor.h"
 
 G_DEFINE_TYPE_WITH_PRIVATE(ErmineActor, ermine_actor, ERMINE_TYPE_OBJECT);
 

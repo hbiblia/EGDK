@@ -1,4 +1,4 @@
-#include "scene.h"
+#include "ermine_scene.h"
 
 static GList *scenes_manager = NULL;
 static int scenes_len = 0;

@@ -1,5 +1,5 @@
-#include "esprite.h"
-#include "system.h"
+#include "ermine_sprite.h"
+#include "system/ermine_system.h"
 #include "raylib.h"
 
 // -----------------------

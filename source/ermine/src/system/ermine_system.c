@@ -1,4 +1,4 @@
-#include "system.h"
+#include "ermine_system.h"
 
 // system reg data
 static GHashTable *ht_system;

@@ -1,7 +1,8 @@
 #pragma once
 #ifndef __ERMINE_TEXTURE_CLASS_H__
 #define __ERMINE_TEXTURE_CLASS_H__
-#include <ermine.h>
+#include "../ermine.h"
+#include "ermine_actor.h"
 
 G_BEGIN_DECLS
 

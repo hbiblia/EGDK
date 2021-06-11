@@ -1,6 +1,6 @@
-#include "stage.h"
-#include "system.h"
-#include "scene.h"
+#include "ermine_stage.h"
+#include "system/ermine_system.h"
+#include "ermine_scene.h"
 
 static int scene_select_id;
 static bool bSelectScene;

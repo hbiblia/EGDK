@@ -1,7 +1,7 @@
 #ifndef ESPRITE_H
 #define ESPRITE_H
-#include <ermine.h>
-#include "etexture_class.h"
+#include "../ermine.h"
+#include "ermine_texture_class.h"
 
 G_BEGIN_DECLS
 

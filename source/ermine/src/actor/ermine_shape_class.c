@@ -1,4 +1,4 @@
-#include "eshape_class.h"
+#include "ermine_shape_class.h"
 
 G_DEFINE_TYPE_WITH_PRIVATE(ErmineShape, ermine_shape, ERMINE_TYPE_ACTOR);
 

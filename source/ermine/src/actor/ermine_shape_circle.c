@@ -1,5 +1,5 @@
-#include "eshape_circle.h"
-#include "system.h"
+#include "ermine_shape_circle.h"
+#include "system/ermine_system.h"
 #include "raylib.h"
 
 // -----------------------
