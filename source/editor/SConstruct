@@ -7,6 +7,8 @@ source = [
     "src/menubar.c",
     "src/notebook.c",
     "src/canvas.c",
+    "src/level_editor.c",
+    "src/ui_browser.c",
 ]
 
 env.Append(LIBS=['pthread','m'])

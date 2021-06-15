@@ -7,6 +7,8 @@
         "ermine_shape_circle.h": "c",
         "ermine_texture_class.h": "c",
         "ermine.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "notebook.h": "c",
+        "canvas.h": "c"
     }
 }

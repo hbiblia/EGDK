@@ -1,19 +1,19 @@
 #include "notebook.h"
 
-static GtkWidget *notebook;
+static GtkWidget *notebook[10];
 
-GtkWidget *notebook_init(void)
+GtkWidget *notebook_init(int id)
 {
-    notebook = gtk_notebook_new();
-    return notebook;
+    notebook[id] = gtk_notebook_new();
+    return notebook[id];
 }
 
-void notebook_append(GtkWidget *child, const char *label)
+void notebook_append(int id, GtkWidget *child, const char *label)
 {
-    gtk_notebook_append_page(GTK_NOTEBOOK(notebook), child, gtk_label_new(label));
+    gtk_notebook_append_page(GTK_NOTEBOOK(notebook[id]), child, gtk_label_new(label));
 }
 
-void notebook_remove(GtkWidget *child)
+void notebook_remove(int id, GtkWidget *child)
 {
-    gtk_notebook_remove_page(GTK_NOTEBOOK(notebook), gtk_notebook_page_num(notebook, child));
+    gtk_notebook_remove_page(GTK_NOTEBOOK(notebook[id]), gtk_notebook_page_num(notebook[id], child));
 }

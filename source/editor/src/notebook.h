@@ -5,9 +5,15 @@
 #include <gtk/gtk.h>
 
 
-GtkWidget *notebook_init(void);
+typedef enum NOTEBOOKS{
+    PARENT_NOTEBOOK,
+    NOTEBOOK_EDITOR_PANEL_A,
+    NOTEBOOK_EDITOR_PANEL_B,
+    NOTEBOOK_EDITOR_PANEL_C,
+};
 
-void notebook_append(GtkWidget *child, const char *label);
-void notebook_remove(GtkWidget *child);
+GtkWidget *notebook_init(int id);
+void notebook_append(int id, GtkWidget *child, const char *label);
+void notebook_remove(int id, GtkWidget *child);
 
 #endif
